@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FORMS</title>
+
+<style>
+    h1{
+        text-decoration: underline;
+        text-align: center;
+        font: 20px;
+        font-family: Chandas;
+        color: red;
+    }
+    h5{
+        color: deeppink;
+        text-align: justify;
+    }
+    .input-section{
+
+        padding: 1px;
+        border-radius:1px;
+        color:red;
+        border: 5px;
+
+
+
+
+        .input-section input{
+            color: red;
+            background-color: greenyellow;
+        }
+.input-section label{
+    color: red;
+
+}
+    }
+
+    body{
+
+        background-color: gray;
+    }
+
+form{border: 7px solid greenyellow;
+    width: 500px;
+    color: darkblue;
+    background-color: lightseagreen;
+
+
+}
+
+p{
+    font-family: Chandas;
+    color: yellow;
+    text-align: left;
+    text-decoration: underline;
+}
+
+input{
+    color: darkblue;
+    border-top: 1px solid black;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid blue;
+}
+
+.veve{
+    color: lime;
+}
+
+.bombo label{
+    color: blueviolet;
+}
+
+.input-section input{
+    color: black;
+    border: 5px solid gold;
+    border-bottom: 1px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.veve select{
+color: crimson;
+    border: 2px solid black;
+    border-top: none;
+}
+
+
+
+
+
+</style>
+
+</head>
+<body >
+<form action="" >
+    <h1> Employee Detail</h1>
+    <h5>BIO DATA</h5>
+    <div class="input-section">
+        <label for="" >NAME</label>
+        <input type="text"><br><br>
+    </div>
+    <div class="input-section">
+        <label for="" >Mobile no.</label>
+    <input type="text"><br><br>
+    </div>
+
+    <div class="bombo">
+        <label for="" >GENDER</label>
+   MALE: <input type="radio" name="gender" checked value="male">
+   FEMALE: <input type="radio" name="gender" value="female"><br><br>
+
+    </div>
+
+
+    <div class="bombo">
+        <label for="" >HOBBIES:</label>
+    DANCING:<input type="checkbox" name="hobby" value="dancing">
+    SINGING:<input type="checkbox" name="hobby" value="singing">
+    SOCCER:<input type="checkbox" name="hobby" value="soccer" checked><br><br></div>
+
+
+    <div class="veve">
+        <label for="" > COUNTY</label>
+<select name="dropdown" id="">
+    <option value="" >NAIROBI</option>
+    <option value="">MOMBASA</option>
+    <option value="">KISUMU</option>
+    <option value="">NYERI</option>
+    <option value="">NAKURU</option>
+    <option value="">NYAHURURU</option>
+    <option value="">NANYUKI</option>
+    <option value="">MACHAKOS</option>
+    <option value="">NAROK</option>
+    <option value="">MERU</option>
+    <option value="">MARSABIT</option>
+    <option value="">MOYALE</option>
+    <option value="">LAMU</option>
+    <option value="">VOI</option>
+    <option value="">LODWAR</option>
+     <option value="">KIAMBU</option>
+</select>
+
+
+    </div>
+
+    <br><br>
+    <input type="submit" value="SUBMIT">
+    <input type="reset" value="RESET">
+    <p>Don't have an account</p>
+</form>
+
+</body>
+</html>

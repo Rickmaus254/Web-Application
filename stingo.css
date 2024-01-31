@@ -1,0 +1,213 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color: gold;
+}
+.all-links li{
+    list-style: none;
+
+
+}
+
+.navbar .logo a {
+    font-size: 20px;
+    font-weight:700;
+    color: crimson;
+    text-decoration: none;
+}
+
+.all-links a{
+    text-decoration: none;
+    margin: 4px;
+
+}
+
+.navbar .all-links{
+    display: flex;
+    position: relative;
+
+}
+
+.navbar .all-links a{
+    color: darkblue;
+    font-size: 17px;
+    padding: 6px 2px;
+}
+
+.navbar a:hover{
+    color: limegreen;
+    text-decoration: underline;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url("Screenshot from 2024-01-30 15-32-07.png");
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+    font-family:sans-serif ;
+}
+
+.home .home-content{
+    width: 90%;
+    height: 100vh;
+    margin:auto ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home .text-one{
+    font-size: 25px;
+    color: cyan;
+    ;
+}
+.home .text-two{
+    font-size: 65px;
+    color: rgba(248, 244, 7, 0.91);
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .text-three{
+    font-size: 40px;
+    color: chocolate;
+
+    margin: 5px 0;
+}
+
+.home .text-four{
+    font-size: 25px;
+    color: brown;
+    margin: 5px 0;
+}
+.home .button{
+
+    margin: 14px 0;
+}
+
+.home .button button{
+    padding: 8px 16px;
+    outline: none;
+    border-radius: 6px;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: limegreen;
+    color: mintcream;
+    cursor: pointer;
+    border: 2px solid limegreen;
+}
+.home .button button:hover{
+    color: gold;
+    border-color: limegreen;
+    background-color: cadetblue;
+}
+
+
+
+.about{
+      width: 100%;
+    height: 150vh;
+    background-image: url("Screenshot from 2024-01-30 15-24-22.png");
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+    font-family:sans-serif ;
+}
+
+.about .about-content{
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+.about .simp-0ne{
+    color: mintcream;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about .simp-two{
+    text-align: center;
+    color: mintcream;
+    font-size: 18px;
+    font-family: Dialog;
+
+}
+
+.about .simp-three{
+     text-align: center;
+    color: mintcream;
+    font-size: 18px;
+    font-family: Dialog;
+}
+
+.about .flex{
+    text-align: center;
+}
+
+.about .flex button{
+      padding: 8px 16px;
+    outline: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 200;
+    background-color: #ffffff;
+    color: #141514;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+}
+
+.about .flex button:hover{
+     color: darkblue;
+    border-color: snow;
+    background-color: cadetblue;
+}
+
+h3{
+    color: lime;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
